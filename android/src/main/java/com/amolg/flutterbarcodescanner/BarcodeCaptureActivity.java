@@ -61,6 +61,7 @@ import java.io.IOException;
 import androidx.core.view.WindowCompat;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.core.graphics.Insets;
 
 /**
  * Activity for the multi-tracker app.  This app detects barcodes and displays the value with the
