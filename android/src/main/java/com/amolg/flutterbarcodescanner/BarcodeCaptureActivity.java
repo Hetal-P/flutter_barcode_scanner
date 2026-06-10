@@ -57,6 +57,7 @@ import com.google.android.gms.vision.barcode.Barcode;
 import com.google.android.gms.vision.barcode.BarcodeDetector;
 
 import java.io.IOException;
+import androidx.core.view.WindowCompat;
 
 /**
  * Activity for the multi-tracker app.  This app detects barcodes and displays the value with the
@@ -106,7 +107,9 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
+        
         try {
+            WindowCompat.setDecorFitsSystemWindows(activity.getWindow(), false);
             setContentView(R.layout.barcode_capture);
 
             String buttonText = "";
