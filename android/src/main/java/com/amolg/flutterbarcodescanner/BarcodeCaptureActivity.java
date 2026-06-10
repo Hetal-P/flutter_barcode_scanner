@@ -109,7 +109,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
         super.onCreate(icicle);
         
         try {
-            WindowCompat.setDecorFitsSystemWindows(activity.getWindow(), false);
+            WindowCompat.setDecorFitsSystemWindows(getWindow(), false);
             setContentView(R.layout.barcode_capture);
 
             String buttonText = "";
