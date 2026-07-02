@@ -24,7 +24,7 @@
     <RelativeLayout
         android:id="@+id/layoutBottom"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="45dp"
         android:layout_alignParentBottom="true"
         android:background="@android:color/black">
 
@@ -35,8 +35,8 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentBottom="true"
             android:layout_centerVertical="true"
-            android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
             android:contentDescription="Switch camera"
             android:src="@drawable/ic_switch_camera"
             android:layout_alignParentStart="true" />
@@ -57,8 +57,8 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="20dp"
-            android:layout_marginRight="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="15dp"
             android:background="@android:color/transparent"
             android:text="Cancel"
             android:textAllCaps="false"
