@@ -30,8 +30,8 @@
 
         <ImageView
             android:id="@+id/imgViewSwitchCamera"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentBottom="true"
             android:layout_centerVertical="true"
@@ -43,8 +43,8 @@
 
         <ImageView
             android:id="@+id/imgViewBarcodeCaptureUseFlash"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:layout_centerInParent="true"
             android:contentDescription="Flash button"
             android:src="@drawable/ic_barcode_flash_off" />
@@ -52,16 +52,17 @@
         <Button
             android:id="@+id/btnBarcodeCaptureCancel"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="35dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="10dp"
-            android:layout_marginRight="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
             android:background="@android:color/transparent"
             android:text="Cancel"
             android:textAllCaps="false"
+            android:textSize="16sp"
             android:textColor="@android:color/white" />
     </RelativeLayout>
 </RelativeLayout>
